@@ -5,8 +5,8 @@ while (string.IsNullOrEmpty(inputUrlOrProductId))
     inputUrlOrProductId = Console.ReadLine();
 }
 
-var imageWidth = ArgsHelper.GetIntValue(args, "-w", 1000);
-var imageHeight = ArgsHelper.GetIntValue(args, "-h", 1000);
+var imageWidth = ArgsHelper.GetIntValue(args, "-w", 1200);
+var imageHeight = ArgsHelper.GetIntValue(args, "-h", 1200);
 var outPath = ArgsHelper.GetStringValue(args, "-o", "./");
 
 // Parse recochoku url.
